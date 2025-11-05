@@ -20,13 +20,16 @@
     ".vjs-big-play-button",
     ".vjs-poster",
     ".dim-video-player",
-    'div[class*="overlay"]',
-    'div[class*="mask"]',
-    'div[class*="fade"]',
-    'div[class*="shade"]',
-    'div[style*="rgba(0, 0, 0"]',
-    'div[style*="background-color: rgba(0, 0, 0"]',
-    'div[style*="background-color: black"]',
+    ".video-js .vjs-big-play-button",
+    ".video-js .vjs-poster",
+    ".video-js .dim-video-player",
+    '.video-js [class*="overlay"]',
+    '.video-js [class*="mask"]',
+    '.video-js [class*="fade"]',
+    '.video-js [class*="shade"]',
+    '.video-js [style*="rgba(0, 0, 0"]',
+    '.video-js [style*="background-color: rgba(0, 0, 0"]',
+    '.video-js [style*="background-color: black"]',
   ];
 
   const CONTROL_BAR_VISIBLE_CLASS = "amazon-liquid-glass-visible";
